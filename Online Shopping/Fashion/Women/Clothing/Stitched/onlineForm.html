@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <title>Online Sign-Up Form</title>
+    <body bgcolor="#black">
+        <form action="https://formspree.io/sehrish.code@gmail.com" method="post">
+            <fieldset >
+                <legend><h1>Prsonal Details</h1></legend>
+            <p>Enter your Firstname
+
+            <input type="text" name="Firstname" size="15" maxlength="30" required>
+            <br> <br>
+            Enter your Last Name
+            <input type="text" name="Lastname" size="15" maxlength="30" required>
+
+        </p>
+        <p>
+            Password   
+            <input type="password" name="password" size="15" maxlength="30" >
+        </p>
+        <p>
+            Re-enter password
+            <input type="password" name="password" size="15" maxlength="30" >
+        </p>
+        <h3>Comments</h3>
+        <textarea name="Comments" rows="5" cols="50"> Enter your comments...</textarea>
+        <p>
+            <h3>
+                Gender
+            </h3>
+            <label>
+            <input type='radio' name="Gender" value="m"> Male
+            <input type='radio' name="Gender" value="f" checked="Female"  > Female
+            </label>
+        </p>
+        <h3>Interest of clients</h3>
+        <input type="checkbox" name="interest" value="man clothing" > Man Clothing
+        <input type="checkbox" name="interest" value="women clothing"> Women Clothing
+        <input type="checkbox" name="interest" value="children clothing"> Children Clothing
+        <input type="checkbox" name="interest" value="baby clothing"> Baby Clothing
+        <h3>Date Of Birth</h3>
+        <input type="date" name="date" required>
+        <br> <br>
+        <p>E-mail
+        <input type="email" name="email" required>
+        </p>
+        <p>
+            Your Website
+            <input type="url">
+        </p>
+
+        
+        
+        
+        <h3>Nationallity</h3>
+        <select name="countries" multiple>
+            <option value="country">Pakistani</option>
+            <option value="country">London</option>
+            <option value="country">Europe</option>
+            <option value="country">France</option>
+            <option value="country">USA</option>
+            <option value="country">China</option>
+            <option value="country">Iran</option>
+            <option value="country">Iraq</option>
+            <option value="country">Labnan</option>
+        </select>
+    </fieldset>
+        <h3>Upload a Profile Picture</h3>
+        <input type="file" name="dp">
+        <p>
+            <input type="submit" value="Upload">
+            <input type="submit">
+            <input type="image" src="../../../../../dawood.jpg"height='25' width="75"
+        </p>
+        
+    
+    </form>
+
+        
+
+    </body> 
+</html>

@@ -1,2 +1,2 @@
 # HTML-Complete
-It has content of HTML for absolute beginners.
+It has cmplete content of HTML for absolute beginners.
